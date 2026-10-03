@@ -1,0 +1,23 @@
+# 虚拟环境
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+wheels/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 仿真器二进制与运行产物（体积大 / 平台相关，不进仓库）
+simuro_launcher
+*.bag
+logs/
+output/
